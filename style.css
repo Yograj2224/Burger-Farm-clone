@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #f47820;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.header-main{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header1{
+    width: 70px;
+}
+.header2 ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.header2 ul li{
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+.header2 ul li:hover{
+    color: black;
+    transform: scale(1.4,1.4);
+    text-decoration: underline white;
+
+}
+.box1{
+    width: 100%;
+    height: 500px;
+    background-image: url(burger\ img/desktop-burger-farm-banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+.box1-midel{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1-midel-box1{
+    text-align: center;
+    line-height: 50px;
+}
+.box1-midel-box1 h2{
+    font-size: 47px;
+    color: white;
+}
+.box1-midel-box1 img{
+    width: 100%;
+    max-width: 270px;
+}
+.box1-button button{
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: #f47820;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+.box1-button button:hover{
+    background-color: black;
+    color: white;
+    transform: rotate(360deg);
+}
+.box1-img-left{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box1-img-right{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+}
+.box2-midel-contener{
+    width: 75%;
+    margin: auto;
+}
+.box2-hadding{
+    padding: 20px 0px;
+}
+.box2-midel{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box2-midel-box{
+    width: 32%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 10%);
+    transition: 1s;
+}
+.box2-midel-box:hover{
+    transform: scale(1.1,1.1);
+}
+.box2-midel-box-img{
+    width: 40%;
+}
+.box2-midel-box-img img{
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}
+.box2-midel-box-text{
+    width: 70%;
+    padding: 5px 5px 70px 5px;
+    line-height: 20px;
+    position: relative;
+}
+.box2-midel-box-text h6{
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.box2-midel-box-text p{
+    font-size: 13px;
+}
+.box2-buttom-box{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.box2-buttom-rs{
+    font-size: 15px;
+    font-weight: bold;
+}
+.box2-buttom-button button{
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: transparent;
+    border: solid #f47820 1px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #f47820;
+    cursor: pointer;
+}
+.box2-buttom-button button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.box2-bottom-button{
+    text-align: center;
+    padding: 20px 0px;
+}
+.box2-bottom-button button{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #f47820;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.box2-bottom-button button:hover{
+    background-color: black;
+    color: white;
+}
+.box3{
+    padding: 20px 0px;
+}
+.box3-midel{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.box3-midel-box{
+    width: 40%;
+    border-radius: 10px;
+}
+.box3-midel-box-right{
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    right: -247px;
+}
+.box3-midel img{
+    border-radius: 10px;
+}
+.box4{
+    padding: 20px 0px;
+}
+.box4-midel{
+    width: 75%;
+    margin: auto;
+    cursor: pointer;
+}
+.box5{
+    padding: 30px 0px;
+}
+.box5-midel{
+    width: 75%;
+    margin: auto;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 10%);
+}
+.box5-hadding-box{
+    display: flex;
+}
+.box5-hadding-1 i{
+    font-size: 15px;
+}
+.box5-hadding-1{
+    font-size: 20px;
+    padding: 2px 30px;
+    border-bottom: #f47820 solid;
+    color: #f47820;
+    cursor: pointer;
+}
+.box5-hadding-midel-1{
+    line-height: 40px;
+    padding: 30px 0px;
+}
+.box5-hadding-midel-1 h5{
+    color: #f47820;
+}
+.box5-mdiel-ad ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.box5-mdiel-ad ul li button{
+    padding: 15px 25px;
+    font-size: 15px;
+    outline: none;
+    background-color: #f47820;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.box5-mdiel-ad ul li p{
+    padding: 0px 20px;
+    font-size: 15px;
+}
+.box5-mdiel-ad ul li select{
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    border: solid #f47820 1px;
+    cursor: pointer;
+}
+.box6-midel{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+    position: relative;
+    overflow: hidden;
+}
+.box6-midel-box1{
+    width: 45%;
+}
+.box6-midel-box2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 56px;
+    position: relative;
+}
+.box6-hadding-decoration{
+    padding: 20px 0px;
+    position: absolute;
+    top: 156px;
+    left: 200px;
+}
+.box6-big-hadding{
+    font-size: 30px;
+    color: #f47820;
+    padding: 10px 0px;
+}
+.box6-sm-hadding{
+    font-size: 20px;
+    color: #f47820;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.box6-app-box{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.box6-playstore{
+    cursor: pointer;
+    transition: 1s;
+}
+.box6-playstore:hover{
+    transform: scale(1.1,1.1);
+}
+.box6-applestore{
+    cursor: pointer;
+    transition: 1s;
+}
+.box6-applestore:hover{
+    transform: scale(1.1,1.1);
+}
+.box6-midel-box2-decoration{
+    position: absolute;
+    top: 85px ;
+    right: -306px;
+    transform: rotate(50deg);
+}
+.box7{
+    width: 100%;
+    background-color: #f47820;
+}
+.box7-midel{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0px;
+}
+.box7-block-hadding{
+    font-size: 16px;
+    color: white;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+.box7-block{
+    width: 20%;
+    padding: 0px 10px;
+}
+.box7-block-paymant-icon-contaner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.box7-block-paymant-icon{
+    width: 30%;
+}
+.box7-block-paymant-icon img{
+    width: 100%;
+    cursor: pointer;
+}
+.box7-block-manu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+}
+.box7-block-manu ul li{
+    cursor: pointer;
+    color: white;
+}
+.box7-block-pr{
+    font-size: 15px;
+    color: white;
+    line-height: 25px;
+}
+.box7-block-follow{
+    display: flex;
+    gap: 10px;
+    padding: 20px 0px;
+}
+.box7-block-follow-icon{
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+.box7-block-follow-icon i{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box8{
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.box8-midel{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box8-c-icon{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
